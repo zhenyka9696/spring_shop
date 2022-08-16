@@ -1,7 +1,10 @@
-INSERT INTO jewelry (name, color, price, price_new) VALUES ('French Pave Diamond Engagement Ring in Platinum (1/4 ct. tw.)', 'Platinum', 175000,131250);
-INSERT INTO jewelry (name, color, price, price_new) VALUES ('Petite Solitaire Engagement Ring in Platinum', 'White', 89000,66750);
-
-insert into material(name) values ('Platinum');
-insert into material(name) values ('White');
-insert into material(name) values ('Yellow');
-insert into material(name) values ('Rose');
+insert into artist (Artist_Id,Name) values (1,'AC/DC');
+insert into artist (Artist_Id,Name) values (2,'Accept');
+insert into artist (Artist_Id,Name) values (3,'Aerosmith');
+insert into artist (Artist_Id,Name) values (4,'Alanis Morisette');
+insert into artist (Artist_Id,Name) values (5,'Alice In Chains');
+insert into artist (Artist_Id,Name) values (6,'Carlos Jobim');
+insert into artist (Artist_Id,Name) values (7,'Apocalyptica');
+insert into artist (Artist_Id,Name) values (8,'Audioslave');
+insert into artist (Artist_Id,Name) values (9,'BackBeat');
+insert into artist (Artist_Id,Name) values (10,'Samurai');
