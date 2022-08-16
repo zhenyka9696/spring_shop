@@ -1,21 +1,8 @@
-drop table if exists jewelry;
-drop table if exists material;
+drop table if exists Artist;
 
-CREATE TABLE jewelry (
-                         id int NOT NULL AUTO_INCREMENT,
-                         name varchar(100) NOT NULL,
-                         color varchar(20) not null,
-                         price float NOT NULL,
-                         price_new float NOT NULL,
-                        material_id int,
-                         PRIMARY KEY (id)
+CREATE TABLE Artist(
+                       Artist_id INTEGER  AUTO_INCREMENT,
+                       Name NVARCHAR(120),
+                       CONSTRAINT PK_Artist PRIMARY KEY  (Artist_id)
 );
-
-CREATE TABLE material
-(
-    id   int          NOT NULL AUTO_INCREMENT,
-    name varchar(100) NOT NULL,
-    PRIMARY KEY (id)
-);
-
 
